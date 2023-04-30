@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>CsUnitTestHelper</PackageId>
+    <Version>0.0.11</Version>
+    <Authors>deBabbe</Authors>
+    <Companyy />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/deBabbbe/CsUnitTestHelper.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/deBabbbe/CsUnitTestHelper</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType> 
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClassExtensions" Version="0.0.4" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
